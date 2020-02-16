@@ -12,19 +12,20 @@
         android:background="@color/placeHolderBG" />
 
     <View
-    android:id="@+id/title"
-    android:layout_width="150dp"
-    android:layout_height="10dp"
-    android:layout_marginBottom="10dp"
-    android:layout_toRightOf="@+id/thumbnail"
-    android:background="@color/placeHolderBG" />
+        android:id="@+id/title"
+        android:layout_width="150dp"
+        android:layout_height="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:background="@color/placeHolderBG" />
+
     <View
         android:id="@+id/url"
         android:layout_width="100dp"
         android:layout_height="8dp"
+        android:layout_below="@+id/title"
         android:layout_marginBottom="10dp"
         android:layout_toRightOf="@+id/thumbnail"
-        android:layout_below="@+id/title"
         android:background="@color/placeHolderBG" />
 
 </RelativeLayout>
